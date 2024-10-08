@@ -1,0 +1,25 @@
+// Append clicked button to display
+function appendToDisplay(value) {
+    document.getElementById('display').value += value;
+}
+
+// Calculate the result based on display input
+function calculate() {
+    try {
+        let result = eval(document.getElementById('display').value);
+        document.getElementById('display').value = result;
+    } catch (error) {
+        document.getElementById('display').value = 'Error';
+    }
+}
+
+// Clear the display
+function clearDisplay() {
+    document.getElementById('display').value = '';
+}
+
+// Delete last character from display
+function deleteChar() {
+    let currentDisplay = document.getElementById('display').value;
+    document.getElementById('display').value = currentDisplay.slice(0, -1);
+}
