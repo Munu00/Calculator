@@ -104,9 +104,4 @@ If you have suggestions for improving the project, feel free to fork the reposit
 5. Open a Pull Request
 
 
-
-Contact
-
-Your Name - @your_twitter - your.email@example.com
-
-Project Link:https://github.com/yourusername/Necosoft-Themed-Calculator
+**Project Link**:https://github.com/yourusername/Necosoft-Themed-Calculator
